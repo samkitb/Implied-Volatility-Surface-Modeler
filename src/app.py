@@ -651,6 +651,8 @@ def update_shock_badge(value):
 def update_timestamp(n):
     return datetime.now().strftime("%Y-%m-%d  %H:%M:%S")
 
+server = app.server
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 8050))
+    app.run(host="0.0.0.0", port=port, debug=False)
