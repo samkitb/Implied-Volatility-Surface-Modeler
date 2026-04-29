@@ -244,7 +244,9 @@ Black-Scholes assumes IV is flat — the same number at every strike and expiry.
 <!-- IMAGE PLACEHOLDER 3 — Replace with the vol smile chart from the bottom-left of your dashboard -->
 <!-- To add: screenshot the bottom-left chart and save as "assets/vol_smile.png" -->
 ![Vol Smile](assets/vol_smile.png)
-*Volatility smile at 30, 60, 90, and 180 day expiries — IV lowest at-the-money (moneyness = 1.0), rising on both sides*
+
+
+*Volatility smile at 30, 60, 90, and 180 day expiries —- IV lowest at-the-money (moneyness = 1.0), rising on both sides*
 
 ### What is a volatility surface?
 
